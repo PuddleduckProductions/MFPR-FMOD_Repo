@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="ParameterPreset" id="{f5e51318-a666-4126-96dd-ca1f69e4e8c6}">
+	<object class="ParameterPreset" id="{ec4775f3-cf85-4892-acc8-b6ebaa28b999}">
 		<property name="name">
-			<value>enterArea</value>
+			<value>areaShift</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ad165e8d-f555-437a-8530-6da6020625d7}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{a9a54372-c6ac-486a-a42a-609bd8c2c1bc}</destination>
+			<destination>{c421f74f-8941-414c-a8a5-302234aae0bb}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{a9a54372-c6ac-486a-a42a-609bd8c2c1bc}">
-		<property name="parameterType">
-			<value>1</value>
-		</property>
-		<property name="maximum">
-			<value>2</value>
-		</property>
+	<object class="GameParameter" id="{c421f74f-8941-414c-a8a5-302234aae0bb}">
 		<property name="initialValue">
 			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.37999999523162842</value>
 		</property>
 	</object>
 </objects>
