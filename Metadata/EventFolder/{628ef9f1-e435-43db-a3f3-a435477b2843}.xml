@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{628ef9f1-e435-43db-a3f3-a435477b2843}">
+		<property name="name">
+			<value>Ambience(assign to sfx bank)</value>
+		</property>
+		<relationship name="folder">
+			<destination>{90a2d9ed-f7aa-4545-b188-aca8d70b62a3}</destination>
+		</relationship>
+	</object>
+</objects>
