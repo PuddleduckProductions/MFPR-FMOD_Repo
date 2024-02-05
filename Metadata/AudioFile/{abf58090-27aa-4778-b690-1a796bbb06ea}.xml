@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{abf58090-27aa-4778-b690-1a796bbb06ea}">
 		<property name="assetPath">
-			<value>Creek_Ambience (HP 600Hz).ogg</value>
+			<value>Ambience/Creek_Ambience (HP 600Hz).ogg</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

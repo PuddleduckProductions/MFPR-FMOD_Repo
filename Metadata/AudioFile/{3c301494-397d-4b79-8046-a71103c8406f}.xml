@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{3c301494-397d-4b79-8046-a71103c8406f}">
 		<property name="assetPath">
-			<value>The_Ocean (HP 300Hz).wav</value>
+			<value>Ambience/The_Ocean (HP 300Hz).wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
