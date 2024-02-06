@@ -5,7 +5,7 @@
 			<value>Ocean (wip)</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{628ef9f1-e435-43db-a3f3-a435477b2843}</destination>
@@ -333,6 +333,7 @@
 	<object class="MixerBusEffectChain" id="{d528a915-638e-4656-b733-10adb927dc9c}">
 		<relationship name="effects">
 			<destination>{8a0272cd-9d68-4809-88f3-538211cf3d88}</destination>
+			<destination>{297c315a-c599-4566-9867-299c5ba3660e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c5304fc3-47be-4cb9-936a-adce6129553b}" />
@@ -491,6 +492,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{8a0272cd-9d68-4809-88f3-538211cf3d88}" />
+	<object class="SpatialiserEffect" id="{297c315a-c599-4566-9867-299c5ba3660e}" />
 	<object class="AutomationPoint" id="{0f7c1ffb-3ea7-45f8-bdde-0212c324c28e}">
 		<property name="position">
 			<value>0</value>

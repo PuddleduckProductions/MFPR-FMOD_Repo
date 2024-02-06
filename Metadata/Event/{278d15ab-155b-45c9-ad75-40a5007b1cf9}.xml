@@ -5,7 +5,7 @@
 			<value>Birds</value>
 		</property>
 		<property name="outputFormat">
-			<value>3</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{628ef9f1-e435-43db-a3f3-a435477b2843}</destination>
@@ -203,6 +203,7 @@
 	<object class="MixerBusEffectChain" id="{6d614dcf-9e5a-4417-be16-d34ffb92f519}">
 		<relationship name="effects">
 			<destination>{51af3bdb-f72a-472d-8538-8c27006af34e}</destination>
+			<destination>{3ff9b333-28e4-404b-9320-38cc1bd99fbc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9408770f-40a3-4406-9c9c-d878a51d5c9e}" />
@@ -254,6 +255,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{51af3bdb-f72a-472d-8538-8c27006af34e}" />
+	<object class="SpatialiserEffect" id="{3ff9b333-28e4-404b-9320-38cc1bd99fbc}" />
 	<object class="AutomationPoint" id="{de333d83-c60c-416c-be62-545eb18a2858}">
 		<property name="position">
 			<value>0</value>
