@@ -126,9 +126,6 @@
 		<property name="length">
 			<value>0.69693349753694578</value>
 		</property>
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
 		<property name="triggerProbability">
 			<value>0</value>
 		</property>
