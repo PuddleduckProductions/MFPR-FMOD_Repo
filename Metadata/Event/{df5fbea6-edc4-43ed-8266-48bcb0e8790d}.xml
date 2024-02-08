@@ -200,7 +200,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3794c314-6216-4af9-9e0e-982277157db0}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Water Splashes</value>
 		</property>
 		<relationship name="automators">
 			<destination>{477398a1-e69a-4aea-a438-19397010b186}</destination>
@@ -531,7 +531,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-29</value>
+			<value>-48</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{7035a1e7-1991-40d2-9899-c8c057faeca4}">
