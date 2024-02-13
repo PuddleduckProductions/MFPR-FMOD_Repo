@@ -191,13 +191,13 @@
 			<value>-80</value>
 		</property>
 		<property name="attackTime">
-			<value>5800</value>
+			<value>5200</value>
 		</property>
 		<property name="attackShape">
 			<value>-0.23367238</value>
 		</property>
 		<property name="releaseTime">
-			<value>7200</value>
+			<value>6400</value>
 		</property>
 		<property name="releaseShape">
 			<value>0.179758608</value>
