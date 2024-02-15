@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{7ada2ed7-4555-4b12-aa89-2eef579ee363}">
 		<property name="assetPath">
-			<value>Music/Mbira/Happy Mbira 0.3 (FMOD Calm).mp3</value>
+			<value>Music/MbiraHappy/Happy Mbira 0.3 (FMOD Calm).mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
