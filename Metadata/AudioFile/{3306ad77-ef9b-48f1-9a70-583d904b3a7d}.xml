@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{3306ad77-ef9b-48f1-9a70-583d904b3a7d}">
 		<property name="assetPath">
-			<value>seedGrowVines1.ogg</value>
+			<value>SFX/Seeds/seedGrowVines1.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>32</value>

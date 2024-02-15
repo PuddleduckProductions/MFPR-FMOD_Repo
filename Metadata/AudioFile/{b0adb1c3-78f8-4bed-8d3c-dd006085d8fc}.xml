@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{b82562e0-9c4c-4ffb-aab3-535d051adb65}">
+	<object class="AudioFile" id="{b0adb1c3-78f8-4bed-8d3c-dd006085d8fc}">
 		<property name="assetPath">
-			<value>Music/MbiraGroove/Mbira3v2_Kalimba.mp3</value>
+			<value>Music/MbiraGroove/Mbira3v2.1_Kalimba.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
