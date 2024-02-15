@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c6a31fab-26ab-45c7-a0e6-bc14a937ecc3}">
+		<property name="assetPath">
+			<value>seedGrowVines2.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>32</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.6149062500000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3274aadb-7589-4438-ba99-60ac1908fbbc}</destination>
+		</relationship>
+	</object>
+</objects>

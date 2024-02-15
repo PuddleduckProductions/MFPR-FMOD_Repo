@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0e1d5d0b-f5f0-4738-9307-b6d6a0ac2f5e}">
+		<property name="assetPath">
+			<value>climbVines5.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>32</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.44621875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3274aadb-7589-4438-ba99-60ac1908fbbc}</destination>
+		</relationship>
+	</object>
+</objects>

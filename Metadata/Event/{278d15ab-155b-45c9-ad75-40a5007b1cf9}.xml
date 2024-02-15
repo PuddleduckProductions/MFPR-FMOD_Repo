@@ -5,7 +5,7 @@
 			<value>Birds</value>
 		</property>
 		<property name="outputFormat">
-			<value>3</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{628ef9f1-e435-43db-a3f3-a435477b2843}</destination>
@@ -115,7 +115,7 @@
 	<object class="MixerBusPanner" id="{42c0085c-e582-48ac-a3e1-8a95afff7ebd}" />
 	<object class="SingleSound" id="{2331ab6d-8736-4b60-91be-5ce169c2a6d3}">
 		<property name="length">
-			<value>20.991138087541049</value>
+			<value>24.962810765708426</value>
 		</property>
 		<property name="timelockedOffset">
 			<value>0.22029941245894907</value>
@@ -167,6 +167,12 @@
 		<property name="length">
 			<value>20.076868895797165</value>
 		</property>
+		<property name="quantizationInterval">
+			<value>2</value>
+		</property>
+		<property name="transitionOffset">
+			<value>2</value>
+		</property>
 		<relationship name="timeline">
 			<destination>{9588dfc8-b2d9-4f2e-af79-00ece0f1df82}</destination>
 		</relationship>
@@ -185,13 +191,13 @@
 			<value>-80</value>
 		</property>
 		<property name="attackTime">
-			<value>5800</value>
+			<value>5200</value>
 		</property>
 		<property name="attackShape">
 			<value>-0.23367238</value>
 		</property>
 		<property name="releaseTime">
-			<value>7200</value>
+			<value>6400</value>
 		</property>
 		<property name="releaseShape">
 			<value>0.179758608</value>
@@ -203,6 +209,7 @@
 	<object class="MixerBusEffectChain" id="{6d614dcf-9e5a-4417-be16-d34ffb92f519}">
 		<relationship name="effects">
 			<destination>{51af3bdb-f72a-472d-8538-8c27006af34e}</destination>
+			<destination>{3ff9b333-28e4-404b-9320-38cc1bd99fbc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9408770f-40a3-4406-9c9c-d878a51d5c9e}" />
@@ -254,6 +261,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{51af3bdb-f72a-472d-8538-8c27006af34e}" />
+	<object class="SpatialiserEffect" id="{3ff9b333-28e4-404b-9320-38cc1bd99fbc}" />
 	<object class="AutomationPoint" id="{de333d83-c60c-416c-be62-545eb18a2858}">
 		<property name="position">
 			<value>0</value>
