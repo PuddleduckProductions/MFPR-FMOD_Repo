@@ -148,6 +148,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{fcdddd26-0a30-43bc-b2b9-6264b546b2c8}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{4b274841-0b2a-4016-ba06-cfac2b16126d}</destination>
 		</relationship>
@@ -1071,7 +1074,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>3</value>
 		</property>
 	</object>
 	<object class="LFOModulator" id="{97402d7c-d711-4c5f-8d6e-e8824e268d55}">
