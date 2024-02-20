@@ -65,7 +65,11 @@
 			<destination>{a36113fd-7a39-4de2-bc8d-8ee65344250a}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{c2e6758f-bd0e-4a40-b596-adf1dd04a3f8}" />
+	<object class="EventAutomatableProperties" id="{c2e6758f-bd0e-4a40-b596-adf1dd04a3f8}">
+		<property name="minimumDistance">
+			<value>7</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{2b6d0720-8005-46df-9ae6-f94df1562df8}" />
 	<object class="GroupTrack" id="{e9b7f8f1-30de-4604-8c82-895d8e0f55ca}">
 		<relationship name="automationTracks">
@@ -148,6 +152,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{fcdddd26-0a30-43bc-b2b9-6264b546b2c8}">
+		<relationship name="modulators">
+			<destination>{f7dee62b-7225-4042-ae65-6a68f897d691}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{4b274841-0b2a-4016-ba06-cfac2b16126d}</destination>
 		</relationship>
@@ -501,6 +508,29 @@
 			<destination>{ee23b2aa-52da-4703-b188-d0c927521215}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{f7dee62b-7225-4042-ae65-6a68f897d691}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>1400</value>
+		</property>
+		<property name="attackShape">
+			<value>-0.356008708</value>
+		</property>
+		<property name="releaseTime">
+			<value>2400</value>
+		</property>
+		<property name="releaseShape">
+			<value>0.333775461</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{4b274841-0b2a-4016-ba06-cfac2b16126d}">
 		<relationship name="effects">
 			<destination>{e91b6694-1456-4c50-9d91-3fc44b563ed8}</destination>
@@ -676,6 +706,7 @@
 		<relationship name="effects">
 			<destination>{0e668f14-4e2b-400e-a414-e2126df98b4f}</destination>
 			<destination>{4c4ed6c1-3b23-415b-a1ee-40825701fe12}</destination>
+			<destination>{d7a69a27-7f74-4f4a-94f2-38dc6bdb79ac}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cd165226-345a-4a6c-81aa-7ef723f7d4d2}" />
@@ -695,7 +726,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{e91b6694-1456-4c50-9d91-3fc44b563ed8}" />
-	<object class="SpatialiserEffect" id="{0c60cec2-93f4-4c7e-85f3-73428d371163}" />
+	<object class="SpatialiserEffect" id="{0c60cec2-93f4-4c7e-85f3-73428d371163}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{9dea2844-ee69-42a3-bd69-6597542e73e0}">
 		<property name="position">
 			<value>30.984652052545158</value>
@@ -938,16 +973,22 @@
 			<value>2600</value>
 		</property>
 		<property name="frequencyB">
-			<value>560</value>
+			<value>528.136292</value>
 		</property>
 		<property name="frequencyC">
-			<value>9500</value>
+			<value>11104.0605</value>
+		</property>
+		<property name="qualityA">
+			<value>0.297291428</value>
 		</property>
 		<property name="qualityB">
 			<value>0.519999981</value>
 		</property>
+		<property name="qualityC">
+			<value>0.730814755</value>
+		</property>
 		<property name="gainB">
-			<value>-18.5</value>
+			<value>-9.52329445</value>
 		</property>
 		<relationship name="automators">
 			<destination>{d1be8786-b5f4-4386-8198-dc262e77126d}</destination>
@@ -968,20 +1009,28 @@
 			<value>4</value>
 		</property>
 		<property name="frequencyA">
-			<value>1050</value>
+			<value>1583.61926</value>
 		</property>
 		<property name="frequencyB">
-			<value>800</value>
+			<value>905.105713</value>
 		</property>
 		<property name="qualityA">
-			<value>0.56048274</value>
+			<value>0.775642395</value>
 		</property>
 		<property name="qualityB">
-			<value>0.581413805</value>
+			<value>0.44460237</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{97402d7c-d711-4c5f-8d6e-e8824e268d55}</destination>
 		</relationship>
+	</object>
+	<object class="PitchShifterEffect" id="{d7a69a27-7f74-4f4a-94f2-38dc6bdb79ac}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="pitch">
+			<value>0.939999998</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{f5ad93c5-71fc-4303-9c3c-7b06f0c2f611}">
 		<property name="position">
@@ -1036,7 +1085,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-50.6666718</value>
+			<value>-41.75</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.447039485</value>
@@ -1047,7 +1096,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-10.5</value>
+			<value>-2.5</value>
 		</property>
 	</object>
 	<object class="Automator" id="{d1be8786-b5f4-4386-8198-dc262e77126d}">
@@ -1063,7 +1112,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-48</value>
+			<value>-63.3333359</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{26b05cd3-9850-47f3-a088-54c385200005}">
@@ -1071,7 +1120,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-5.5</value>
 		</property>
 	</object>
 	<object class="LFOModulator" id="{97402d7c-d711-4c5f-8d6e-e8824e268d55}">
@@ -1099,7 +1148,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>20</value>
+			<value>403.431091</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{aae3c3c2-f9f0-4d63-97a3-af2e680d874e}">
@@ -1107,7 +1156,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>7000</value>
+			<value>22000</value>
 		</property>
 		<property name="curveShape">
 			<value>0.239347503</value>

@@ -56,7 +56,14 @@
 			<destination>{e06764fd-1c52-4a70-afa8-4a52e9ec9686}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{dc40af1d-c93f-4ca5-a529-bf76819fb5bf}" />
+	<object class="EventAutomatableProperties" id="{dc40af1d-c93f-4ca5-a529-bf76819fb5bf}">
+		<property name="minimumDistance">
+			<value>3.20000005</value>
+		</property>
+		<property name="maximumDistance">
+			<value>3.20000005</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{b941f89d-62a1-437f-a2e3-2198c4cdd855}" />
 	<object class="GroupTrack" id="{7c9a0155-3174-4e19-9ab4-30cb9373e28e}">
 		<relationship name="modules">
@@ -104,8 +111,14 @@
 			<destination>{1a479842-beef-465b-ba18-1f11ebe0ea34}</destination>
 			<destination>{f06b0abe-238c-496d-aee1-84e2c58db275}</destination>
 		</relationship>
+		<relationship name="playPercentages">
+			<destination>{7c58acbc-0e78-4402-807b-098f3878bd20}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3c940fb1-9790-4e6a-8ab7-cf2052c720b3}">
+		<property name="volume">
+			<value>-8.5</value>
+		</property>
 		<property name="name">
 			<value>Jeremy's steps</value>
 		</property>
@@ -172,9 +185,18 @@
 			<destination>{909d27aa-1ab6-4ff6-84f4-cd3c1523c8cc}</destination>
 		</relationship>
 	</object>
+	<object class="PlayPercentage" id="{7c58acbc-0e78-4402-807b-098f3878bd20}">
+		<property name="percentage">
+			<value>0</value>
+		</property>
+		<relationship name="sound">
+			<destination>{bbef41db-63e8-42ca-b768-f3a635b9e0b4}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{925d0551-7c7a-4538-b3e4-0034900442f0}">
 		<relationship name="effects">
 			<destination>{611a842a-4459-4114-81f4-90419635f8c2}</destination>
+			<destination>{bad3d20d-8cc1-4bbc-9d53-31c90b7cd5d0}</destination>
 			<destination>{cc258837-7239-4bde-afa7-79b9b5f52981}</destination>
 		</relationship>
 	</object>
@@ -182,9 +204,26 @@
 	<object class="MixerBusFader" id="{a278a3be-b204-428a-911c-a2313a653c72}" />
 	<object class="SpatialiserEffect" id="{8aa59dba-2608-43f7-99a6-600eb25ac183}" />
 	<object class="MixerBusFader" id="{611a842a-4459-4114-81f4-90419635f8c2}" />
+	<object class="CompressorEffect" id="{bad3d20d-8cc1-4bbc-9d53-31c90b7cd5d0}">
+		<property name="threshold">
+			<value>-25</value>
+		</property>
+		<property name="ratio">
+			<value>4</value>
+		</property>
+		<property name="attackTime">
+			<value>18</value>
+		</property>
+	</object>
 	<object class="MultibandEqEffect" id="{cc258837-7239-4bde-afa7-79b9b5f52981}">
+		<property name="filterTypeB">
+			<value>4</value>
+		</property>
 		<property name="frequencyA">
-			<value>22000</value>
+			<value>1050</value>
+		</property>
+		<property name="frequencyB">
+			<value>2400</value>
 		</property>
 	</object>
 </objects>
