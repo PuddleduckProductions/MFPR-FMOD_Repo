@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{565bf69b-92a8-4e42-b1b9-848e1895de30}">
+		<property name="assetPath">
+			<value>Music/MbiraGroove/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3274aadb-7589-4438-ba99-60ac1908fbbc}</destination>
+		</relationship>
+	</object>
+</objects>

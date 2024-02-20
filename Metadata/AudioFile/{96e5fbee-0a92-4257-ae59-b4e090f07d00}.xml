@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{96e5fbee-0a92-4257-ae59-b4e090f07d00}">
+		<property name="assetPath">
+			<value>Voice/Dugong/dugongPositive1_sparkle.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.58455782312925175</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3274aadb-7589-4438-ba99-60ac1908fbbc}</destination>
+		</relationship>
+	</object>
+</objects>

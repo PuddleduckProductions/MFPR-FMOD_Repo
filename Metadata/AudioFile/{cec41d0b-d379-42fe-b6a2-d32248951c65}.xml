@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{cec41d0b-d379-42fe-b6a2-d32248951c65}">
 		<property name="assetPath">
-			<value>Music/Mbira/whistle 3.ogg</value>
+			<value>Music/MbiraHappy/MHwhistle3.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

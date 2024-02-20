@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{63e74a89-517b-41e7-bb69-1874de671c46}">
 		<property name="assetPath">
-			<value>birds (high pass filter 1200Hz).ogg</value>
+			<value>Ambience/birds (high pass filter 1200Hz).ogg</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
