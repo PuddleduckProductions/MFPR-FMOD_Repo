@@ -444,7 +444,7 @@
 	</object>
 	<object class="SingleSound" id="{75a20e21-33cd-41d6-afb2-fffbe936d60e}">
 		<property name="start">
-			<value>130.62499999999997</value>
+			<value>130.625</value>
 		</property>
 		<property name="length">
 			<value>15.000000000000014</value>
@@ -460,6 +460,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e7189296-a80f-423a-9adf-21f1b7f9c10f}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<property name="name">
 			<value>Percussion</value>
 		</property>
@@ -1495,7 +1498,7 @@
 	</object>
 	<object class="AutomationPoint" id="{e1fc94e8-517a-4ecd-b96d-a7fed6d047bd}">
 		<property name="position">
-			<value>130.62499999999997</value>
+			<value>130.625</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -1647,7 +1650,7 @@
 	</object>
 	<object class="AutomationPoint" id="{be591f92-6a78-4d6f-a22d-d64d17bdb76e}">
 		<property name="position">
-			<value>130.62499999999997</value>
+			<value>130.625</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -1666,7 +1669,7 @@
 	</object>
 	<object class="AutomationPoint" id="{dcd2c0c1-7d96-4bfb-98bd-4dac919578a6}">
 		<property name="position">
-			<value>145.56295918367346</value>
+			<value>145.56295918367348</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -1677,7 +1680,7 @@
 	</object>
 	<object class="AutomationPoint" id="{e6130964-8bef-44ed-bb5e-9ac3c353d07d}">
 		<property name="position">
-			<value>145.62499999999997</value>
+			<value>145.625</value>
 		</property>
 		<property name="value">
 			<value>0</value>
