@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{e525ced5-ca9b-42cd-94ce-2b5135badb3c}">
+		<property name="name">
+			<value>drag state</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ad165e8d-f555-437a-8530-6da6020625d7}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{36a48016-2a8e-4198-910a-5e6343deea99}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{36a48016-2a8e-4198-910a-5e6343deea99}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
