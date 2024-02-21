@@ -95,6 +95,7 @@
 		<relationship name="markers">
 			<destination>{e3cca9cb-68bb-4347-a37c-ed28a594e01b}</destination>
 			<destination>{ce6dfaab-e4d1-4345-ac7c-a5ba2f9e1b89}</destination>
+			<destination>{696d9ec3-064b-4392-9b4e-2354d3dd0b59}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{5c7e0228-d8f5-49d9-a05f-ca97bd6b3442}">
@@ -232,6 +233,23 @@
 			<destination>{e6ef244c-4be3-4590-bfda-afcba42ad9a7}</destination>
 		</relationship>
 	</object>
+	<object class="TransitionRegion" id="{696d9ec3-064b-4392-9b4e-2354d3dd0b59}">
+		<property name="position">
+			<value>5.2000000000000002</value>
+		</property>
+		<property name="length">
+			<value>0.79999999999999982</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{e9597e11-e60f-47fd-9d82-0b83108bb53d}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{e6ef244c-4be3-4590-bfda-afcba42ad9a7}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{ad9900ae-a720-4158-bbf8-e6cc8040d03a}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{0ab3b0bc-fd36-4e3d-8354-7f704178d5dc}">
 		<relationship name="effects">
 			<destination>{9db5c826-e9aa-46fc-9740-9665cb3deccd}</destination>
@@ -271,10 +289,21 @@
 	<object class="MixerBusPanner" id="{8dff680f-df2c-4f9c-8079-d031f0de96f4}" />
 	<object class="ParameterCondition" id="{b363bf5a-3c83-452b-9f71-a44ffec4f969}">
 		<property name="minimum">
-			<value>0.47999998927116394</value>
+			<value>0</value>
 		</property>
 		<property name="maximum">
 			<value>0.50499999523162842</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{36a48016-2a8e-4198-910a-5e6343deea99}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{ad9900ae-a720-4158-bbf8-e6cc8040d03a}">
+		<property name="minimum">
+			<value>0.51499998569488525</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{36a48016-2a8e-4198-910a-5e6343deea99}</destination>
