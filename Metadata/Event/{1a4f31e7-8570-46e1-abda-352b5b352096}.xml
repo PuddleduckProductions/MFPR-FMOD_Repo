@@ -31,6 +31,9 @@
 		<relationship name="parameters">
 			<destination>{c22a96c9-2492-40f7-ac09-394a40c59a7c}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{72b211bf-75d8-4080-ad92-3cfefffb8f00}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{06f59415-221c-44bd-b208-3fb886a4677b}">
 		<relationship name="masterBus">
@@ -79,7 +82,11 @@
 			<destination>{06f59415-221c-44bd-b208-3fb886a4677b}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{02c7ea67-f34d-4465-91a0-76ac90b3d398}" />
+	<object class="MultiSound" id="{02c7ea67-f34d-4465-91a0-76ac90b3d398}">
+		<relationship name="sounds">
+			<destination>{aaadbfdb-b1a5-4919-b894-b4e323bf08e2}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{366a3f66-e6e9-4374-b9c5-e74803082bf9}">
 		<relationship name="effects">
 			<destination>{067ed282-a0ce-4a9e-ae5b-995c879562e5}</destination>
@@ -89,11 +96,39 @@
 	<object class="MixerBusEffectChain" id="{9883307d-43f9-45c7-9f4d-95bc345f4219}">
 		<relationship name="effects">
 			<destination>{e69c003e-d80c-45a3-8101-87e5033b9744}</destination>
+			<destination>{26746deb-aecc-4a0c-b1ea-91443c044b29}</destination>
 			<destination>{ff43ef2e-66ff-45c5-bd6f-97c72fdb4bc5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cccb8180-b28b-456e-bb52-843331266deb}" />
+	<object class="MultiSound" id="{aaadbfdb-b1a5-4919-b894-b4e323bf08e2}">
+		<relationship name="sounds">
+			<destination>{0b67e900-7061-4ae4-bded-2a19801163d6}</destination>
+			<destination>{d83a631f-76e7-4381-bcb9-724dc19e6ae1}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{067ed282-a0ce-4a9e-ae5b-995c879562e5}" />
 	<object class="MixerBusFader" id="{e69c003e-d80c-45a3-8101-87e5033b9744}" />
+	<object class="FlangerEffect" id="{26746deb-aecc-4a0c-b1ea-91443c044b29}">
+		<property name="rate">
+			<value>20</value>
+		</property>
+		<property name="delay">
+			<value>0.50999999</value>
+		</property>
+		<property name="mix">
+			<value>28</value>
+		</property>
+	</object>
 	<object class="SpatialiserEffect" id="{ff43ef2e-66ff-45c5-bd6f-97c72fdb4bc5}" />
+	<object class="SingleSound" id="{0b67e900-7061-4ae4-bded-2a19801163d6}">
+		<relationship name="audioFile">
+			<destination>{873e7ee4-0cd2-439b-a8a3-faaa53833033}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{d83a631f-76e7-4381-bcb9-724dc19e6ae1}">
+		<relationship name="audioFile">
+			<destination>{5dca0ecc-80e6-4a0d-9a51-76a86300fcf1}</destination>
+		</relationship>
+	</object>
 </objects>
