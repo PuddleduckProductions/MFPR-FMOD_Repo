@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="ParameterPreset" id="{e525ced5-ca9b-42cd-94ce-2b5135badb3c}">
+	<object class="ParameterPreset" id="{bd870fa0-5157-423d-a6ae-f0f315c254b5}">
 		<property name="name">
-			<value>drag state</value>
+			<value>fade out</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ad165e8d-f555-437a-8530-6da6020625d7}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{36a48016-2a8e-4198-910a-5e6343deea99}</destination>
+			<destination>{289e8dcf-288d-400e-976b-baff691029d0}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{36a48016-2a8e-4198-910a-5e6343deea99}">
+	<object class="GameParameter" id="{289e8dcf-288d-400e-976b-baff691029d0}">
 		<property name="initialValue">
 			<value>0</value>
 		</property>
 		<property name="seekSpeed">
-			<value>0.90999996662139893</value>
+			<value>0.42999997735023499</value>
 		</property>
 	</object>
 </objects>
