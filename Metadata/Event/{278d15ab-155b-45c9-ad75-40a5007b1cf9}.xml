@@ -153,7 +153,7 @@
 			<value>2000</value>
 		</property>
 		<property name="spawnRate">
-			<value>22</value>
+			<value>46</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>4.80000019</value>
@@ -162,7 +162,7 @@
 			<value>9</value>
 		</property>
 		<property name="volumeRandomization">
-			<value>-44.5</value>
+			<value>-13.5</value>
 		</property>
 		<property name="pitchRandomization">
 			<value>0.800000012</value>
@@ -195,7 +195,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{1015b072-a938-4ee2-a5ad-017ec2d0f8d7}">
 		<property name="volume">
-			<value>-19</value>
+			<value>-18.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 3</value>
