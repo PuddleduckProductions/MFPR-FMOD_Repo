@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{71efaafb-57a1-4802-8942-50da42928739}">
+		<property name="note" />
 		<property name="name">
 			<value>footsteps</value>
 		</property>
@@ -30,6 +31,12 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{832826a4-d686-415d-a181-92342b026511}</destination>
+		</relationship>
+		<relationship name="parameters">
+			<destination>{9a252fe3-606e-47f8-9efe-d6d988cdb62f}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{e3d2c37a-fd10-4e88-8047-264875ad0153}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{c2798279-6b60-4e0e-9b5c-850b6f998801}</destination>
@@ -80,6 +87,19 @@
 		<relationship name="markers">
 			<destination>{dbf779b8-96e9-4ef6-bcf9-d41719b7dbc3}</destination>
 		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{9a252fe3-606e-47f8-9efe-d6d988cdb62f}">
+		<relationship name="preset">
+			<destination>{81811275-365f-4ef2-ade8-83d8c7cd3f33}</destination>
+		</relationship>
+	</object>
+	<object class="UserProperty" id="{e3d2c37a-fd10-4e88-8047-264875ad0153}">
+		<property name="key">
+			<value>streaming</value>
+		</property>
+		<property name="value">
+			<value>true</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{c02de9b9-c939-4232-9afc-cad3e46f0e90}">
 		<relationship name="effectChain">
@@ -195,6 +215,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{925d0551-7c7a-4538-b3e4-0034900442f0}">
 		<relationship name="effects">
+			<destination>{6133ccb9-03a7-438f-aca4-e2a594c9c901}</destination>
+			<destination>{fbec41c2-e277-4fbf-80f9-018d0a9f311e}</destination>
 			<destination>{611a842a-4459-4114-81f4-90419635f8c2}</destination>
 			<destination>{bad3d20d-8cc1-4bbc-9d53-31c90b7cd5d0}</destination>
 			<destination>{cc258837-7239-4bde-afa7-79b9b5f52981}</destination>
@@ -203,6 +225,16 @@
 	<object class="MixerBusPanner" id="{2be74410-6dfa-43dc-90c9-f4deac1db114}" />
 	<object class="MixerBusFader" id="{a278a3be-b204-428a-911c-a2313a653c72}" />
 	<object class="SpatialiserEffect" id="{8aa59dba-2608-43f7-99a6-600eb25ac183}" />
+	<object class="GainEffect" id="{6133ccb9-03a7-438f-aca4-e2a594c9c901}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{fbec41c2-e277-4fbf-80f9-018d0a9f311e}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{611a842a-4459-4114-81f4-90419635f8c2}" />
 	<object class="CompressorEffect" id="{bad3d20d-8cc1-4bbc-9d53-31c90b7cd5d0}">
 		<property name="threshold">
