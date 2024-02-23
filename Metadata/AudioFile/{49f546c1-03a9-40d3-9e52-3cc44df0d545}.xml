@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{6a255ed3-6d4b-4d82-99f2-95745c4e2040}">
+	<object class="AudioFile" id="{49f546c1-03a9-40d3-9e52-3cc44df0d545}">
 		<property name="assetPath">
-			<value>SFX/Footsteps/climbVines2.ogg</value>
+			<value>SFX/Footsteps/footstepWater1.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>32</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.41740624999999998</value>
+			<value>0.82603124999999999</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{3274aadb-7589-4438-ba99-60ac1908fbbc}</destination>
