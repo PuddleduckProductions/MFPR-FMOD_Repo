@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{af63d8d3-19e6-4fc1-9391-05dc799039b5}">
 		<property name="assetPath">
-			<value>rock scraping 2.ogg</value>
+			<value>SFX/Drag Interactions/rock scraping 2.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

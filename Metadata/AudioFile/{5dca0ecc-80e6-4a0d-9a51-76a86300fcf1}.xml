@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{5dca0ecc-80e6-4a0d-9a51-76a86300fcf1}">
 		<property name="assetPath">
-			<value>seedWater2.ogg</value>
+			<value>SFX/Seeds/seedWater2.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>32</value>
