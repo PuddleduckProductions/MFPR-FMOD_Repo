@@ -16,12 +16,13 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>3</value>
+			<value>4</value>
 		</property>
 		<property name="enumerationLabels">
 			<value>green</value>
 			<value>water</value>
 			<value>sand</value>
+			<value>Wood</value>
 		</property>
 		<property name="isGlobal">
 			<value>true</value>
