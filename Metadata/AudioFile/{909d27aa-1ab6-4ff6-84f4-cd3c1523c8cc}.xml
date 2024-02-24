@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{909d27aa-1ab6-4ff6-84f4-cd3c1523c8cc}">
 		<property name="assetPath">
-			<value>SFX/footstepsv1CUT4.ogg</value>
+			<value>SFX/Footsteps/footstepsv1CUT4.ogg</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
