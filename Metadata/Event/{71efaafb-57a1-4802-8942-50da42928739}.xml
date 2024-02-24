@@ -5,7 +5,7 @@
 			<value>footsteps</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{aca71a37-7535-413b-a575-385d168aac01}</destination>
@@ -657,7 +657,6 @@
 		<relationship name="effects">
 			<destination>{a278a3be-b204-428a-911c-a2313a653c72}</destination>
 			<destination>{98d60e39-f5ea-4296-aafe-a885ac3a8774}</destination>
-			<destination>{8aa59dba-2608-43f7-99a6-600eb25ac183}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0e030e4f-3f0a-431e-b0bb-cbbc5ab2e4a8}" />
@@ -1122,6 +1121,7 @@
 			<value>4.5999999</value>
 		</property>
 	</object>
+<<<<<<< Updated upstream
 	<object class="SpatialiserEffect" id="{8aa59dba-2608-43f7-99a6-600eb25ac183}">
 		<property name="minimumDistance">
 			<value>3.20000005</value>
@@ -1243,6 +1243,18 @@
 		<property name="value">
 			<value>0</value>
 		</property>
+=======
+	<object class="AutomationCurve" id="{9f069c49-c09f-4eba-9d85-8e06fb2255c0}">
+		<relationship name="parameter">
+			<destination>{3df49f94-b20f-4f3c-a858-da35cc64283f}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{252cac87-8c79-438b-8625-2be53e6e0728}</destination>
+			<destination>{7cf42147-08a8-45d7-b11b-a3242263c7c4}</destination>
+			<destination>{af2d0648-17a1-4094-9821-7eb079ff6f56}</destination>
+			<destination>{2d263c7a-17fa-4f87-bc67-cd26e9d50cbc}</destination>
+		</relationship>
+>>>>>>> Stashed changes
 	</object>
 	<object class="MixerBusFader" id="{611a842a-4459-4114-81f4-90419635f8c2}" />
 	<object class="MultibandEqEffect" id="{cc258837-7239-4bde-afa7-79b9b5f52981}">
