@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{af63d8d3-19e6-4fc1-9391-05dc799039b5}">
+	<object class="AudioFile" id="{318d4578-da3c-4b4e-847a-682fa0136e0d}">
 		<property name="assetPath">
-			<value>SFX/Drag Interactions/rock scraping 2.ogg</value>
+			<value>SFX/Drag Interactions/dragConcrete2.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>32</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.75</value>
+			<value>5.9939687499999996</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{3274aadb-7589-4438-ba99-60ac1908fbbc}</destination>

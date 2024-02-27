@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{ec4775f3-cf85-4892-acc8-b6ebaa28b999}">
 		<property name="name">
-			<value>areaShift</value>
+			<value>musicShift</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ad165e8d-f555-437a-8530-6da6020625d7}</destination>

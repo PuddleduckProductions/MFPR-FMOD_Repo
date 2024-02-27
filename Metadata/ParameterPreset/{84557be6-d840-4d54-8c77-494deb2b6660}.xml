@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{84557be6-d840-4d54-8c77-494deb2b6660}">
 		<property name="name">
-			<value>Material Type</value>
+			<value>materialType</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ad165e8d-f555-437a-8530-6da6020625d7}</destination>
@@ -12,6 +12,17 @@
 		</relationship>
 	</object>
 	<object class="GameParameter" id="{81811275-365f-4ef2-ade8-83d8c7cd3f33}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Wood</value>
+			<value>Rubber</value>
+			<value>cementBag</value>
+		</property>
 		<property name="initialValue">
 			<value>0</value>
 		</property>
