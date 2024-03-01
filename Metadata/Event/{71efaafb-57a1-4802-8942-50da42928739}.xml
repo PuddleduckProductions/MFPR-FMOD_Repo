@@ -133,7 +133,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{c02de9b9-c939-4232-9afc-cad3e46f0e90}">
 		<property name="volume">
-			<value>-15</value>
+			<value>-6</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{f839201d-761b-4b0a-acd2-567c5bdf4ee2}</destination>
@@ -541,7 +541,7 @@
 			<value>7807.50684</value>
 		</property>
 		<property name="frequencyB">
-			<value>550.48114</value>
+			<value>85.2911987</value>
 		</property>
 		<property name="qualityA">
 			<value>0.255202591</value>
@@ -591,7 +591,7 @@
 			<destination>{c80e6423-43be-4bce-987d-82981cd45e33}</destination>
 			<destination>{618d768a-d93e-41e7-9e65-f6972906c6a9}</destination>
 			<destination>{2de017b8-4c76-487c-b1f5-3fdad4858826}</destination>
-			<destination>{869716cb-e73b-4440-8a56-d00ca9a21743}</destination>
+			<destination>{9c21b004-4260-49ff-8c36-0b5b40a6aedb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{b2822145-da4d-42ca-8e66-b0712e239c7d}" />
@@ -621,7 +621,7 @@
 			<value>1.68789661</value>
 		</property>
 		<property name="gainA">
-			<value>-19.1379318</value>
+			<value>-7.75862122</value>
 		</property>
 	</object>
 	<object class="AutomationCurve" id="{dfbed613-21ca-47d9-863e-5370c0f1ce59}">
@@ -722,7 +722,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-66.6666641</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{618d768a-d93e-41e7-9e65-f6972906c6a9}">
@@ -738,15 +738,15 @@
 			<value>2</value>
 		</property>
 		<property name="value">
-			<value>-66.6666641</value>
+			<value>-80</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{869716cb-e73b-4440-8a56-d00ca9a21743}">
+	<object class="AutomationPoint" id="{9c21b004-4260-49ff-8c36-0b5b40a6aedb}">
 		<property name="position">
 			<value>3</value>
 		</property>
 		<property name="value">
-			<value>-66.6666641</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{0eb9fdca-bf84-49b1-9dfc-aee63552439f}">
