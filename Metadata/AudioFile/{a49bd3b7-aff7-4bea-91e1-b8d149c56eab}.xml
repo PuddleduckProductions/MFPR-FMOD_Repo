@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a49bd3b7-aff7-4bea-91e1-b8d149c56eab}">
 		<property name="assetPath">
-			<value>aye aye saved 1.ogg</value>
+			<value>Voice/Aye Aye/aye aye saved 1.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

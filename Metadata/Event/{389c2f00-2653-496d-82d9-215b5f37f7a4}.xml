@@ -212,6 +212,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3a441275-81c8-4212-be19-a31b086e6bbc}">
+		<property name="volume">
+			<value>7</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{0ab3b0bc-fd36-4e3d-8354-7f704178d5dc}</destination>
 		</relationship>
@@ -273,7 +276,7 @@
 			<value>-8.5</value>
 		</property>
 		<property name="pitch">
-			<value>-24</value>
+			<value>-7</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{8966c259-5d0b-43dd-a8a1-97ea421c9b6e}</destination>
@@ -313,7 +316,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{901f05f8-4906-4ad2-8c84-80843b7aac10}">
 		<property name="volume">
-			<value>-5</value>
+			<value>-7.5</value>
 		</property>
 		<property name="name">
 			<value>noise</value>
@@ -351,7 +354,6 @@
 		<property name="length">
 			<value>0.20000000000000001</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{accf9105-151d-4d30-b7db-e0599a072dcc}</destination>
 		</relationship>
@@ -385,7 +387,6 @@
 		<property name="length">
 			<value>0.16357142857142876</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{accf9105-151d-4d30-b7db-e0599a072dcc}</destination>
 		</relationship>
@@ -403,7 +404,6 @@
 		<property name="length">
 			<value>0.16357142857142876</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{accf9105-151d-4d30-b7db-e0599a072dcc}</destination>
 		</relationship>
@@ -421,7 +421,6 @@
 		<property name="length">
 			<value>0.16357142857142876</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{accf9105-151d-4d30-b7db-e0599a072dcc}</destination>
 		</relationship>
@@ -439,7 +438,6 @@
 		<property name="length">
 			<value>0.16357142857142876</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{accf9105-151d-4d30-b7db-e0599a072dcc}</destination>
 		</relationship>
@@ -457,7 +455,6 @@
 		<property name="length">
 			<value>0.16357142857142876</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{accf9105-151d-4d30-b7db-e0599a072dcc}</destination>
 		</relationship>
@@ -475,7 +472,6 @@
 		<property name="length">
 			<value>0.16357142857142876</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{accf9105-151d-4d30-b7db-e0599a072dcc}</destination>
 		</relationship>
@@ -493,7 +489,6 @@
 		<property name="length">
 			<value>0.16357142857142876</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{accf9105-151d-4d30-b7db-e0599a072dcc}</destination>
 		</relationship>
@@ -511,7 +506,6 @@
 		<property name="length">
 			<value>0.16357142857142876</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{accf9105-151d-4d30-b7db-e0599a072dcc}</destination>
 		</relationship>
@@ -529,7 +523,6 @@
 		<property name="length">
 			<value>0.16357142857142876</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{accf9105-151d-4d30-b7db-e0599a072dcc}</destination>
 		</relationship>
@@ -547,7 +540,6 @@
 		<property name="length">
 			<value>0.16357142857142876</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{accf9105-151d-4d30-b7db-e0599a072dcc}</destination>
 		</relationship>
@@ -565,7 +557,6 @@
 		<property name="length">
 			<value>0.16357142857142876</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{accf9105-151d-4d30-b7db-e0599a072dcc}</destination>
 		</relationship>
@@ -583,7 +574,6 @@
 		<property name="length">
 			<value>0.16357142857142876</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{accf9105-151d-4d30-b7db-e0599a072dcc}</destination>
 		</relationship>
@@ -601,7 +591,6 @@
 		<property name="length">
 			<value>0.16357142857142876</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{accf9105-151d-4d30-b7db-e0599a072dcc}</destination>
 		</relationship>
@@ -619,7 +608,6 @@
 		<property name="length">
 			<value>0.16357142857142876</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{accf9105-151d-4d30-b7db-e0599a072dcc}</destination>
 		</relationship>
@@ -698,7 +686,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{4eadfd6f-f45d-4ce1-878a-59eef73db279}">
 		<property name="volume">
-			<value>-1.5</value>
+			<value>-13.5</value>
 		</property>
 		<property name="name">
 			<value>0 - Wood</value>
@@ -996,7 +984,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{26ecd773-8085-4a39-b7cb-43e2a23ff313}">
 		<property name="volume">
-			<value>-22.5</value>
+			<value>-18.5</value>
 		</property>
 		<property name="name">
 			<value>2 - Cement Bag</value>
@@ -1615,10 +1603,10 @@
 			<value>-80</value>
 		</property>
 		<property name="midGain">
-			<value>-13</value>
+			<value>-18.5</value>
 		</property>
 		<property name="highGain">
-			<value>-36</value>
+			<value>-28.5</value>
 		</property>
 		<property name="lowCrossover">
 			<value>1250</value>
