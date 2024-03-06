@@ -5,7 +5,7 @@
 			<value>dugongVoice</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d7780903-ad72-46f6-a9f4-0fec9c6f2d9f}</destination>
@@ -163,6 +163,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{fb9e3f19-4dbf-4e37-abbb-8ed341e36150}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
 		<property name="name">
 			<value>Dry Version</value>
 		</property>
@@ -226,7 +229,6 @@
 	<object class="MixerBusEffectChain" id="{45736624-f7ae-4595-b4f8-5820ce10ccab}">
 		<relationship name="effects">
 			<destination>{75ff3a65-4a7d-4f9b-911d-3c06f6165e0f}</destination>
-			<destination>{86160975-adbf-41de-b1f7-10e686a82c10}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8d3dda25-91fe-4717-8162-4479a0db15d4}" />
@@ -359,7 +361,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{119ed201-d385-4936-83f7-2e974159cbde}" />
 	<object class="MixerBusFader" id="{75ff3a65-4a7d-4f9b-911d-3c06f6165e0f}" />
-	<object class="SpatialiserEffect" id="{86160975-adbf-41de-b1f7-10e686a82c10}" />
 	<object class="RandomizerModulator" id="{93249abd-337e-404f-ad21-eb7971b327e2}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>startOffset</value>
