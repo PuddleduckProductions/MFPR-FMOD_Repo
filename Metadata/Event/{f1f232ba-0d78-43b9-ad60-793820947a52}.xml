@@ -5,7 +5,7 @@
 			<value>seedVoice</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d7780903-ad72-46f6-a9f4-0fec9c6f2d9f}</destination>
@@ -96,7 +96,6 @@
 	<object class="MixerBusEffectChain" id="{350b6e48-3ded-4320-ba6a-7fa42a0badb5}">
 		<relationship name="effects">
 			<destination>{b6c3dca7-29a9-4cac-a9b6-ad1aa4222585}</destination>
-			<destination>{13b46eed-b18b-4816-a7b4-7baa78d75bcf}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9cb5cc3a-afa4-4c99-bc35-a665ee5ba517}" />
@@ -114,7 +113,6 @@
 	</object>
 	<object class="MixerBusFader" id="{b8ebae95-8840-4bb5-a4ca-8ce8b714ecef}" />
 	<object class="MixerBusFader" id="{b6c3dca7-29a9-4cac-a9b6-ad1aa4222585}" />
-	<object class="SpatialiserEffect" id="{13b46eed-b18b-4816-a7b4-7baa78d75bcf}" />
 	<object class="RandomizerModulator" id="{0e406bd3-f0c0-4102-90bc-517b2e369d44}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>

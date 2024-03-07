@@ -5,7 +5,7 @@
 			<value>ayeayeVoice</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d7780903-ad72-46f6-a9f4-0fec9c6f2d9f}</destination>
@@ -224,7 +224,6 @@
 	<object class="MixerBusEffectChain" id="{e8230564-24f4-43f7-ad49-e2240aa62b9a}">
 		<relationship name="effects">
 			<destination>{2de3be5f-9488-4b28-bcb1-19ba08e28140}</destination>
-			<destination>{4a5c5353-1f02-4064-9f37-850555c32274}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e2118977-9bdc-4537-9a17-4d2f01954f73}" />
@@ -325,7 +324,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{ce482580-6597-49bd-b597-bad92e1fd3cd}" />
 	<object class="MixerBusFader" id="{2de3be5f-9488-4b28-bcb1-19ba08e28140}" />
-	<object class="SpatialiserEffect" id="{4a5c5353-1f02-4064-9f37-850555c32274}" />
 	<object class="MixerBusFader" id="{faba778f-0ff2-407a-bf76-3feb5a306397}" />
 	<object class="PitchShifterEffect" id="{3a59d6da-c6de-4b51-a280-498a0914c8e6}">
 		<property name="pitch">

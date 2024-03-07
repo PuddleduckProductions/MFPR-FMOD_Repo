@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="ParameterPreset" id="{e9e5a049-d360-4ac8-b5db-b44b57f0a0cc}">
+	<object class="ParameterPreset" id="{a1534794-171a-4624-9e91-52c3b2711db1}">
 		<property name="name">
 			<value>floorType</value>
 		</property>
@@ -8,30 +8,25 @@
 			<destination>{ad165e8d-f555-437a-8530-6da6020625d7}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{3df49f94-b20f-4f3c-a858-da35cc64283f}</destination>
+			<destination>{0499c0ef-5d48-4a1e-b7ff-e8de123c2812}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{3df49f94-b20f-4f3c-a858-da35cc64283f}">
+	<object class="GameParameter" id="{0499c0ef-5d48-4a1e-b7ff-e8de123c2812}">
 		<property name="parameterType">
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>4</value>
+			<value>5</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>green</value>
-			<value>water</value>
-			<value>sand</value>
+			<value>Grass</value>
+			<value>Water</value>
+			<value>Sand</value>
 			<value>Wood</value>
-		</property>
-		<property name="isGlobal">
-			<value>true</value>
+			<value>Concrete</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
-		</property>
-		<property name="isExposedRecursively">
-			<value>false</value>
 		</property>
 	</object>
 </objects>
