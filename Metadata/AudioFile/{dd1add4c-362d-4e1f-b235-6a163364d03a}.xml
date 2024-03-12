@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{ab9a1a2d-c421-4443-bede-5efa80c0e16b}">
+	<object class="AudioFile" id="{dd1add4c-362d-4e1f-b235-6a163364d03a}">
 		<property name="assetPath">
-			<value>SFX/Drag/radio static White Noise.ogg</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>trashVinesRetract2.1.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>32</value>
 		</property>
 		<property name="channelCount">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>59.008000000000003</value>
+			<value>1.18290625</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{3274aadb-7589-4438-ba99-60ac1908fbbc}</destination>

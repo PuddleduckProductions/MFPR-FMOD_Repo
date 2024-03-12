@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{42401bef-828a-4281-9d3e-8bc2e789be3a}">
 		<property name="name">
-			<value>dragOverSandTEMP</value>
+			<value>dragSand_Short</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -263,7 +263,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{7872c247-9f06-4384-8ac3-3f470e709472}">
 		<property name="volume">
-			<value>-14.5</value>
+			<value>-7.5</value>
 		</property>
 		<property name="name">
 			<value>1 - Rubber</value>
@@ -329,6 +329,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{145f5d82-caf9-473f-90d2-9def2d7d399e}">
 		<relationship name="effects">
+			<destination>{e131ef3c-dc26-408a-8990-dc9c580b3fed}</destination>
 			<destination>{2bfea052-3654-451d-b305-3767ad30e1ed}</destination>
 		</relationship>
 	</object>
@@ -482,6 +483,17 @@
 			<destination>{61092843-f2ea-4830-b790-781649f65946}</destination>
 		</relationship>
 	</object>
+	<object class="CompressorEffect" id="{e131ef3c-dc26-408a-8990-dc9c580b3fed}">
+		<property name="threshold">
+			<value>-37</value>
+		</property>
+		<property name="ratio">
+			<value>4.4000001</value>
+		</property>
+		<property name="gain">
+			<value>-3</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{2bfea052-3654-451d-b305-3767ad30e1ed}" />
 	<object class="AutomationPoint" id="{ed0b9820-0683-41fd-8387-0feb69de7786}">
 		<property name="position">
@@ -496,7 +508,7 @@
 	</object>
 	<object class="AutomationPoint" id="{f9c91ba2-ae92-46f8-813b-8481121c132f}">
 		<property name="position">
-			<value>0.074999999999999997</value>
+			<value>0.059999999999999998</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -595,7 +607,7 @@
 			<value>-8</value>
 		</property>
 		<property name="midGain">
-			<value>-50</value>
+			<value>-15</value>
 		</property>
 		<property name="highGain">
 			<value>-2.5</value>
@@ -615,7 +627,7 @@
 	</object>
 	<object class="AutomationPoint" id="{360b7141-03a5-42db-bdb9-6cdc7bb4a538}">
 		<property name="position">
-			<value>0.095000000000000001</value>
+			<value>0.074999999999999997</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -643,7 +655,7 @@
 	<object class="MixerBusFader" id="{7dd12eac-257a-4e7b-9770-29f4c259557f}" />
 	<object class="ThreeEQEffect" id="{5e7df369-8ed7-410a-ab5f-53f2e7c7d73b}">
 		<property name="highGain">
-			<value>-17.5</value>
+			<value>-3.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{17f63485-8a37-4f00-b486-d349449c6a84}">
@@ -651,7 +663,7 @@
 			<value>0.070000000000000007</value>
 		</property>
 		<property name="value">
-			<value>-4</value>
+			<value>0</value>
 		</property>
 		<property name="curveShape">
 			<value>0.644209623</value>
@@ -659,10 +671,10 @@
 	</object>
 	<object class="AutomationPoint" id="{61092843-f2ea-4830-b790-781649f65946}">
 		<property name="position">
-			<value>0.47999999999999998</value>
+			<value>0.41000000000000003</value>
 		</property>
 		<property name="value">
-			<value>-75</value>
+			<value>-80</value>
 		</property>
 	</object>
 </objects>

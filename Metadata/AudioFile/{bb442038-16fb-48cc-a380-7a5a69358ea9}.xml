@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{bb442038-16fb-48cc-a380-7a5a69358ea9}">
 		<property name="assetPath">
-			<value>SFX/Drag Interactions/rubber6.ogg</value>
+			<value>SFX/Drag/rubber6.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>32</value>
