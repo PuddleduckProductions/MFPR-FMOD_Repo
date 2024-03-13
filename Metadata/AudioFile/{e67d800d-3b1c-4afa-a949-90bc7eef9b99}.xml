@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e67d800d-3b1c-4afa-a949-90bc7eef9b99}">
+		<property name="assetPath">
+			<value>SFX/boat_horn_more_delayverb.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.0369841269841267</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3274aadb-7589-4438-ba99-60ac1908fbbc}</destination>
+		</relationship>
+	</object>
+</objects>
