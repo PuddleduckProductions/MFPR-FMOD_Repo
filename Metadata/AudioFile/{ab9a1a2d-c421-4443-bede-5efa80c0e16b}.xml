@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{ab9a1a2d-c421-4443-bede-5efa80c0e16b}">
 		<property name="assetPath">
-			<value>SFX/Drag Interactions/radio static White Noise.ogg</value>
+			<value>SFX/Drag/radio static White Noise.ogg</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{deab7beb-4860-4342-954b-e6a8e974e924}">
 		<property name="assetPath">
-			<value>Mbira4v2_ShakerFMOD.mp3</value>
+			<value>Music/MbiraDark/Mbira4v2_ShakerFMOD.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>32</value>

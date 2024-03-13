@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{81c2cda9-cf31-4f26-b130-454ce731745f}">
 		<property name="name">
-			<value>dragOverConcrete</value>
+			<value>drogConcrete_Long</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -34,10 +34,6 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{8c26c6f3-5b81-4560-ae2b-9e6bafdc2067}</destination>
-		</relationship>
-		<relationship name="banks">
-			<destination>{3f4ae3de-a460-40a2-9fe0-7abd0141487e}</destination>
-			<destination>{d0e6ec4d-f56f-49d2-bfb6-13c25f94bc17}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{ac929b40-fcde-49d2-8891-074346b20116}">

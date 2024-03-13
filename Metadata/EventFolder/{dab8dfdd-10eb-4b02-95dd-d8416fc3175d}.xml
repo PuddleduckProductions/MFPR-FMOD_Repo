@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="EventFolder" id="{dab8dfdd-10eb-4b02-95dd-d8416fc3175d}">
 		<property name="name">
-			<value>Drag Interactions</value>
+			<value>Grab&amp;Drag</value>
 		</property>
 		<relationship name="folder">
 			<destination>{aca71a37-7535-413b-a575-385d168aac01}</destination>
