@@ -491,7 +491,7 @@
 			<value>4.4000001</value>
 		</property>
 		<property name="gain">
-			<value>-3</value>
+			<value>7</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{2bfea052-3654-451d-b305-3767ad30e1ed}" />
@@ -663,7 +663,7 @@
 			<value>0.070000000000000007</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-5</value>
 		</property>
 		<property name="curveShape">
 			<value>0.644209623</value>
