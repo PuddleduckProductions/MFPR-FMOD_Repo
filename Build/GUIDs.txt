@@ -1,0 +1,46 @@
+{84f8bedb-b5f5-45c6-9de4-de7f66d6c2fc} bank:/Master
+{1ce59e0f-c48e-0984-1bad-54819725c464} bank:/Master.strings
+{16a6c94a-6c7c-4f74-81e6-c738d17b8ef4} bank:/Music
+{c2798279-6b60-4e0e-9b5c-850b6f998801} bank:/SFXGeneral
+{72b211bf-75d8-4080-ad92-3cfefffb8f00} bank:/SFXSeeds
+{19954ef6-a718-4cd5-a398-c579556b64a1} bank:/SFX_LV1
+{3f4ae3de-a460-40a2-9fe0-7abd0141487e} bank:/SFX_LV2
+{d0e6ec4d-f56f-49d2-bfb6-13c25f94bc17} bank:/SFX_LV3
+{60537f3b-ed5c-40d2-b0fe-cd195f7edf41} bus:/
+{1786654e-33e6-457e-a097-e60747adb9e5} bus:/Music
+{99a5539e-30c8-4201-88c9-11445f2d2380} bus:/Reverb
+{e06764fd-1c52-4a70-afa8-4a52e9ec9686} bus:/SFX
+{a36113fd-7a39-4de2-bc8d-8ee65344250a} bus:/SFX/Ambience
+{8815cd3a-9ceb-4ebf-8643-088ab2efc39f} bus:/SFX/Dragging
+{cd8248a6-695b-4c1c-9732-b08d03cc4fa0} bus:/SFX/Seeds
+{c70a6c1b-1a15-4c2a-8715-fd8555e99773} bus:/SFX/Voice
+{278d15ab-155b-45c9-ad75-40a5007b1cf9} event:/Ambience/Birds
+{79d6935e-9ccd-4cbd-9c22-8b570fafbe80} event:/Ambience/Frogs
+{afc1abf1-b81e-4de4-9de4-f83ccd34456d} event:/Ambience/Ocean
+{df5fbea6-edc4-43ed-8266-48bcb0e8790d} event:/Ambience/River
+{3a9bb862-c45d-46aa-a632-10529f7b85e3} event:/Music/mbiraDark
+{519c866b-65c6-4a41-80f7-4a982db7c690} event:/Music/mbiraGroove
+{0383977d-b0d4-4c46-bc60-b8f09bdfe63e} event:/Music/mbiraHappy
+{92ec0e02-fa30-47b1-85a5-d7d96f9a0a47} event:/SFX/Boat Horn
+{81c2cda9-cf31-4f26-b130-454ce731745f} event:/SFX/Drag Interactions/dragOverConcrete
+{389c2f00-2653-496d-82d9-215b5f37f7a4} event:/SFX/Drag Interactions/dragOverSand
+{42401bef-828a-4281-9d3e-8bc2e789be3a} event:/SFX/Drag Interactions/dragOverSandTEMP
+{37e4080f-e043-48e8-8be5-00bf34514340} event:/SFX/Seeds/mushroomBounce
+{1250317b-c886-48e3-be9d-9fd6d9c81be1} event:/SFX/Seeds/seedDrop
+{2b60bf31-4c36-4afc-94b3-f8c15ffdbb0f} event:/SFX/Seeds/seedGrab
+{dc3bef0e-06a9-4e78-8e3b-0baec9a03ca9} event:/SFX/Seeds/seedGrowMushroom
+{9b6d998f-af52-4539-a6a1-6eee22a56657} event:/SFX/Seeds/seedGrowVines
+{9d768d5c-4835-4173-adbc-6da55b86be2c} event:/SFX/Seeds/seedPlant
+{1a4f31e7-8570-46e1-abda-352b5b352096} event:/SFX/Seeds/seedWater
+{e1ddedb6-7b5c-4d14-8d0e-8aa4735768ab} event:/SFX/UI/Menu
+{7442eaf8-858c-4fd9-8fa7-b3133296f065} event:/SFX/UI/Success
+{71efaafb-57a1-4802-8942-50da42928739} event:/SFX/footsteps
+{98d5a292-3372-447f-b4f4-770da0f2fc89} event:/Voice/ayeayeVoice
+{15d131d3-76bc-48b6-ae96-89f876f11956} event:/Voice/dugongVoice
+{f1f232ba-0d78-43b9-ad60-793820947a52} event:/Voice/seedVoice
+{4585a8d8-5e56-46b6-8365-5556d9ed99a5} parameter:/emotionType
+{0499c0ef-5d48-4a1e-b7ff-e8de123c2812} parameter:/floorType
+{31edcf67-8b80-483d-bb57-8a8b2d41c20b} parameter:/hover pitch
+{36a48016-2a8e-4198-910a-5e6343deea99} parameter:/isDragging
+{81811275-365f-4ef2-ade8-83d8c7cd3f33} parameter:/materialType
+{c421f74f-8941-414c-a8a5-302234aae0bb} parameter:/musicShift
