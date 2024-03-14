@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{389c2f00-2653-496d-82d9-215b5f37f7a4}">
 		<property name="name">
-			<value>dragOverSand</value>
+			<value>dragSand_Long</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -35,9 +35,6 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{e9597e11-e60f-47fd-9d82-0b83108bb53d}</destination>
-		</relationship>
-		<relationship name="banks">
-			<destination>{19954ef6-a718-4cd5-a398-c579556b64a1}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{c8045c6a-bb9b-4b6d-aac7-258a997f6865}">

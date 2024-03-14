@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{1c228a58-4673-4fe8-9d44-6a6164f636d1}">
 		<property name="assetPath">
-			<value>Mbira4v2_NoShaker.mp3</value>
+			<value>Music/MbiraDark/Mbira4v2_NoShaker.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

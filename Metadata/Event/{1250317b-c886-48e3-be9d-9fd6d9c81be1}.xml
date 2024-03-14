@@ -5,7 +5,7 @@
 			<value>seedDrop</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d9d51a9c-46b5-4c22-b37e-f7b6ed3b6970}</destination>
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{85237878-db1e-4387-bbed-f3312e3c40e7}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{9a2365e7-a1b6-44d0-8325-26cb4f381043}</destination>
 		</relationship>
@@ -96,7 +99,6 @@
 	<object class="MixerBusEffectChain" id="{9a2365e7-a1b6-44d0-8325-26cb4f381043}">
 		<relationship name="effects">
 			<destination>{a9cdac3c-fbe3-48a0-b7f6-c57d755176fe}</destination>
-			<destination>{87994183-bca0-49d7-a82c-0d570e6a2cbd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1e3b5cf6-31d5-4d1b-9142-9b549061c723}" />
@@ -110,7 +112,6 @@
 	</object>
 	<object class="MixerBusFader" id="{e882d7c0-bd6f-430f-b209-b59f90544d1b}" />
 	<object class="MixerBusFader" id="{a9cdac3c-fbe3-48a0-b7f6-c57d755176fe}" />
-	<object class="SpatialiserEffect" id="{87994183-bca0-49d7-a82c-0d570e6a2cbd}" />
 	<object class="RandomizerModulator" id="{0ade8fd5-883d-435f-9760-76001cb5b5f0}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>

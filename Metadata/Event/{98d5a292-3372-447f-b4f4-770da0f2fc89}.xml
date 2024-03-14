@@ -35,9 +35,6 @@
 		<relationship name="parameters">
 			<destination>{242129cd-47f0-4243-a5f6-d4504bb738d5}</destination>
 		</relationship>
-		<relationship name="banks">
-			<destination>{3f4ae3de-a460-40a2-9fe0-7abd0141487e}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixer" id="{61d380be-3fa6-4be9-9126-5502dd6cb6a3}">
 		<relationship name="masterBus">
@@ -158,9 +155,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{79a37e66-1e92-4c93-97ee-ff890c23ea49}">
-		<property name="volume">
-			<value>-80</value>
-		</property>
 		<property name="name">
 			<value>Dry Version</value>
 		</property>
@@ -208,6 +202,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2aa7e279-9005-470e-93b4-80a45ab90415}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
 		<property name="name">
 			<value>Sparkle Version</value>
 		</property>
