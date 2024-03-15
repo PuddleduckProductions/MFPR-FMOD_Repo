@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{43f7bc0c-c736-452c-bb7b-7d3d6fe91f2d}">
+		<property name="name">
+			<value>voiceType</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ad165e8d-f555-437a-8530-6da6020625d7}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c290d2ae-57ae-4a00-8c73-878799850a46}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c290d2ae-57ae-4a00-8c73-878799850a46}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>dry</value>
+			<value>sparkle</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
